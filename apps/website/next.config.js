@@ -18,7 +18,7 @@ module.exports = {
         {
           loader: 'babel-loader',
           options: {
-            "sourceMaps": true,
+            sourceMaps: true,
             presets: [
               ['@babel/preset-react', {
                 runtime: "automatic",

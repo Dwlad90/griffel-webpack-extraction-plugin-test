@@ -8,11 +8,11 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@test/atoms": "workspace:*",
+    "@test/atoms":"workspace:*",
     "@babel/template": "^7.18.6",
     "@griffel/react": "^1",
     "@griffel/webpack-loader": "^2",
-    "@griffel/webpack-extraction-plugin": "workspace:*",
+    "@griffel/webpack-extraction-plugin": "../../griffel-webpack-extraction-plugin-0.1.4.tgz",
     "babel-loader": "^8.2.5",
     "next": "12.1.6",
     "react": "18.2.0",
