@@ -1,0 +1,15 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm i -g pnpm && pnpm install && pnpm run --filter @test/website build",
+    "build": "next build",
+    "start": "npm i -g pnpm && pnpm install && pnpm run --filter @test/website build",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "keywords": ["next"],
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works.",
+  "devDependencies": {}
+}
